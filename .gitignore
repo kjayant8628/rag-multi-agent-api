@@ -13,3 +13,15 @@ __pycache__/
 # OS / Editor junk
 .DS_Store
 .vscode/
+
+# Generated outputs
+answers.txt
+questions.txt
+*.png
+
+# Vector databases / embeddings
+vector_db/
+chroma.sqlite3
+
+# Tests / experiments
+test_*.py

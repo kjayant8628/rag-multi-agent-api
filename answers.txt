@@ -1,0 +1,28 @@
+Multi-Agent System - Answers with Confidence Scoring
+================================================================================
+
+Q1: What experiment demonstrated that objects fall at the same rate in a vacuum?
+Status: RAG_0.90
+Answer: The experiment that demonstrated that objects fall at the same rate in a vacuum was famously done on the Moon during the Apollo 15 mission, where a feather and a hammer were dropped.
+--------------------------------------------------------------------------------
+
+Q2: What is the escape velocity of Earth?
+Status: EXTERNAL_0.95
+Answer: The escape velocity of Earth is approximately 11.2 kilometers per second (km/s) or 25,000 miles per hour (mph). This is the minimum speed an object must have to escape the gravitational pull of the Earth and leave its atmosphere without further propulsion.
+--------------------------------------------------------------------------------
+
+Q3: Why is gravity weaker on the Moon compared to Earth?
+Status: EXTERNAL_0.98
+Answer: Gravity is weaker on the Moon compared to Earth because the Moon has a smaller mass and radius than the Earth. According to the universal law of gravitation, the strength of gravity depends on the mass of the object and the distance from its center. The Moon's mass is about 1/81 of the Earth's mass, and its radius is about 1/4 of the Earth's radius. As a result, the surface gravity on the Moon is about 1/6 of the surface gravity on Earth, which is why astronauts can jump higher on the Moon than on Earth.
+--------------------------------------------------------------------------------
+
+Q4: In what year was the declaration signed ?
+Status: RAG_0.85
+Answer: The Declaration of Independence was adopted on July 4, 1776.
+--------------------------------------------------------------------------------
+
+Q5: Which foundational principles did the declaration establish ?
+Status: RAG_0.92
+Answer: The Declaration established foundational principles such as individual liberty, equality, and the concept of government by consent of the governed.
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: rag-multi-agent-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn api:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: PINECONE_API_KEY
+        sync: false
+      - key: PINECONE_ENVIRONMENT
+        value: us-east-1
+      - key: PINECONE_INDEX_NAME
+        value: rag-index
+      - key: USE_PINECONE
+        value: true

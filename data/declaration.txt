@@ -1,0 +1,8 @@
+[FACT: DATE | EVENT: ADOPTION]
+The Declaration of Independence was adopted on July 4, 1776.
+
+[FACT: PRINCIPLE]
+The Declaration established principles of individual liberty, equality, and government by consent of the governed.
+
+[FACT: AUTHORSHIP]
+The document was primarily authored by Thomas Jefferson.

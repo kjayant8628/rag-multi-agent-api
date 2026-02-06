@@ -1,0 +1,11 @@
+[FACT: PRINCIPLE]
+In classical mechanics, all objects fall at the same rate in a vacuum regardless of their mass.
+This principle was demonstrated by Galileo Galilei and is explained by Newton’s laws of motion.
+
+The gravitational force acting on an object is proportional to its mass, described by the equation F = mg,
+where m is mass and g is the acceleration due to gravity. When calculating acceleration (a = F / m),
+the mass cancels out, resulting in the same acceleration for all objects.
+
+[FACT: EXPERIMENT]
+This means that in the absence of air resistance, a feather and a hammer will fall at the same rate.
+This phenomenon was famously demonstrated on the Moon during the Apollo 15 mission.

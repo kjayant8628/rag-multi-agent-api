@@ -1,4 +1,4 @@
-services:
+ services:
   - type: web
     name: rag-multi-agent-api
     env: python
@@ -7,11 +7,7 @@ services:
     envVars:
       - key: GROQ_API_KEY
         sync: false
-      - key: PINECONE_API_KEY
-        sync: false
-      - key: PINECONE_ENVIRONMENT
-        value: us-east-1
-      - key: PINECONE_INDEX_NAME
-        value: rag-index
-      - key: USE_PINECONE
-        value: true
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: PYTHONPATH
+        value: /opt/render/project/src

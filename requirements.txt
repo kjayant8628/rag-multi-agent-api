@@ -1,8 +1,21 @@
-fastapi
-uvicorn
-python-dotenv
-autogen-agentchat
-autogen-ext
-sentence-transformers
-torch
-chromadb
+# Core API
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+python-dotenv==1.0.0
+torch 
+
+# AutoGen
+autogen-agentchat==0.4.0
+autogen-ext==0.4.0
+
+# OpenAI (explicit)
+openai>=1.0.0
+
+# RAG
+chromadb==0.4.22
+sentence-transformers==2.3.1
+
+# Additional dependencies that might be needed
+httpx
+aiohttp

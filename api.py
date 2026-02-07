@@ -188,10 +188,12 @@ class QueryResponse(BaseModel):
 def initialize_agents():
     """Initialize all agents once at startup"""
     global planner, rag_researcher, external_agent, critic
-    
+    print("ENV VARS:", os.environ)
+    print("GROQ_API_KEY:", os.getenv("GROQ_API_KEY"))
+
     if not os.getenv("GROQ_API_KEY"):
         raise RuntimeError("GROQ_API_KEY not found in environment variables")
-    
+
     model_client = OpenAIChatCompletionClient(
         model="llama-3.3-70b-versatile",
         api_key=os.getenv("GROQ_API_KEY"),

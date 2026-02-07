@@ -1,3 +1,6 @@
-
 #!/usr/bin/env bash
-python -m uvicorn api:app --host 0.0.0.0 --port $PORT
+set -e
+
+python -m uvicorn api:app \
+  --host 0.0.0.0 \
+  --port ${PORT}

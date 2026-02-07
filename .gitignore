@@ -22,6 +22,8 @@ questions.txt
 # Vector databases / embeddings
 vector_db/
 chroma.sqlite3
+*.bin
 
 # Tests / experiments
 test_*.py
+

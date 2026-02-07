@@ -149,17 +149,10 @@
 #     import uvicorn
 #     uvicorn.run(app, host="127.0.0.1", port=8000)
 
-
-
+import os 
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from dotenv import load_dotenv
-import os
-import sys
-
-# Add the current directory to Python path
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-
 # Now import your modules
 from agentchat1 import answer_one_question
 from agents.planner import PLANNER_SYSTEM_PROMPT

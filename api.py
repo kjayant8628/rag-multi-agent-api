@@ -5,7 +5,7 @@ import os
 import asyncio
 
 # Import your existing working code
-from Agentchat1 import answer_one_question # type: ignore
+from agentchat1 import answer_one_question
 from agents.planner import PLANNER_SYSTEM_PROMPT
 from agents.researcher import RAG_RESEARCHER_PROMPT
 from agents.critic import CRITIC_SYSTEM_PROMPT

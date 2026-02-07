@@ -5,3 +5,4 @@ autogen-agentchat
 autogen-ext
 sentence-transformers
 torch
+chromadb

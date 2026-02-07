@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-dotenv
+autogen-agentchat
+autogen-ext
+sentence-transformers
+torch

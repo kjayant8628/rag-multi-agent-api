@@ -1,20 +1,54 @@
-# Core API
+# =========================
+# Core API stack
+# =========================
 fastapi
 uvicorn[standard]
 pydantic
 python-dotenv
 
-# AutoGen
+# =========================
+# HTTP / Async
+# =========================
+httpx
+aiohttp
+requests
+tenacity
+
+# =========================
+# AutoGen ecosystem
+# =========================
 autogen-agentchat
 autogen-ext
 
-# OpenAI (explicit)
+# =========================
+# OpenAI-compatible stack
+# =========================
 openai
+tiktoken
 
-# RAG
+# =========================
+# RAG / Vector DB
+# =========================
 chromadb
 sentence-transformers
+torch
+numpy
+scipy
+scikit-learn
 
-# Additional dependencies
-httpx
-aiohttp
+# =========================
+# Tokenization / NLP utils
+# =========================
+regex
+tqdm
+
+# =========================
+# Serialization / IO
+# =========================
+orjson
+ujson
+
+# =========================
+# OS / Compatibility (Linux-safe)
+# =========================
+typing-extensions
